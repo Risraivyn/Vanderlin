@@ -2972,6 +2972,11 @@
 /obj/item/natural/stone,
 /turf/open/floor/tile/masonic/spiral,
 /area/under/tomb/indoors/royal)
+"QV" = (
+/obj/structure/table/stone_small,
+/obj/item/reagent_containers/food/snacks/pie/cooked/berry/poison,
+/turf/open/floor/tile/kitchen,
+/area/under/tomb/indoors)
 "Rb" = (
 /obj/structure/lever/hidden{
 	redstone_id = "L7"
@@ -2993,11 +2998,6 @@
 "Rm" = (
 /obj/structure/roguetent/preopen,
 /turf/open/floor/tile,
-/area/under/tomb/indoors)
-"Rn" = (
-/obj/structure/table/stone_small,
-/obj/item/reagent_containers/food/snacks/pie/cooked/berry/poison,
-/turf/open/floor/tile/kitchen,
 /area/under/tomb/indoors)
 "Rr" = (
 /obj/effect/decal/cleanable/blood,
@@ -4484,7 +4484,7 @@ JO
 Sd
 YH
 YH
-Rn
+QV
 GY
 Ir
 WU

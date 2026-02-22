@@ -123,26 +123,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
-"bA" = (
-/obj/structure/stairs{
-	dir = 4
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/ruinedwood/spiral,
-/area/outdoors/mountains)
 "bD" = (
 /obj/structure/flora/grass/bush/wall,
 /turf/open/floor/grass/red,
 /area/under/mountains/anvil/lower)
-"bE" = (
-/obj/structure/stairs{
-	dir = 4
-	},
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/ruinedwood/spiral,
-/area/outdoors/mountains)
 "bI" = (
 /obj/structure/spider/stickyweb/solo,
 /turf/open/floor/cobble,
@@ -184,12 +168,6 @@
 /obj/structure/table/church/m,
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/lower)
-"bR" = (
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/twig,
-/area/outdoors/mountains)
 "bS" = (
 /obj/structure/rack,
 /obj/item/weapon/shovel/small{
@@ -239,15 +217,6 @@
 	},
 /turf/open/floor/herringbone,
 /area/under/mountains/anvil/lower)
-"cv" = (
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/ruinedwood/spiral,
-/area/outdoors/mountains)
 "cK" = (
 /obj/structure/door/red,
 /turf/open/floor/wood,
@@ -331,12 +300,6 @@
 	},
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
-"dO" = (
-/obj/item/natural/stoneblock{
-	pixel_x = -5
-	},
-/turf/open/floor/herringbone,
-/area/under/mountains/anvil/lower)
 "dP" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/reagent_containers/glass/bowl{
@@ -383,28 +346,24 @@
 /obj/structure/flora/shroom_tree,
 /turf/open/floor/dirt,
 /area/under/mountains/anvil/lower)
-"dW" = (
-/obj/structure/table/wood/plain,
-/obj/item/reagent_containers/food/snacks/fat{
-	pixel_x = 9;
-	pixel_y = 6
+"dX" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/ore/gold{
+	pixel_x = 5
 	},
-/obj/item/reagent_containers/food/snacks/fat{
-	pixel_x = 1;
-	pixel_y = 10
+/obj/item/ore/silver{
+	pixel_x = 4;
+	pixel_y = -10
 	},
-/obj/item/reagent_containers/food/snacks/fat{
-	pixel_x = -7;
-	pixel_y = 5
+/obj/item/ore/silver{
+	pixel_x = -5;
+	pixel_y = 9
 	},
-/obj/item/reagent_containers/food/snacks/fat{
-	pixel_x = 3
+/obj/item/ore/iron{
+	pixel_x = -5;
+	pixel_y = -10
 	},
-/obj/item/reagent_containers/food/snacks/fat{
-	pixel_x = -4;
-	pixel_y = -2
-	},
-/turf/open/floor/cobble,
+/turf/open/floor/herringbone,
 /area/under/mountains/anvil/lower)
 "eb" = (
 /turf/open/floor/cobblerock,
@@ -431,6 +390,15 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/hexstone,
 /area/indoors/villagegarrison)
+"em" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/outdoors/mountains)
 "eq" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/item/natural/rock/mana_crystal,
@@ -542,6 +510,12 @@
 	},
 /turf/open/floor/cobble,
 /area/indoors/villagegarrison)
+"eU" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/turf/open/floor/hexstone,
+/area/indoors/villagegarrison)
 "eV" = (
 /obj/item/natural/rock,
 /turf/open/floor/dirt,
@@ -556,6 +530,12 @@
 "eY" = (
 /turf/open/floor/cobblerock/snow,
 /area/outdoors/wilderness)
+"fc" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/turf/open/floor/cobble,
+/area/indoors)
 "ff" = (
 /obj/effect/landmark/hammer/dev_text{
 	name = "DO NOT TOUCH THIS COLUMN AT ALL. This is copy/pasted from Daftmarsh and always will be. Make it work!"
@@ -651,6 +631,9 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
+"fV" = (
+/turf/open/lava/acid,
+/area/under/mountains/anvil/lower)
 "fY" = (
 /obj/structure/fluff/walldeco/chains,
 /turf/open/floor/dirt/road,
@@ -659,20 +642,13 @@
 /obj/structure/flora/newtree,
 /turf/open/floor/grass,
 /area/outdoors/bog)
-"gg" = (
-/obj/structure/fluff/railing/wood{
-	dir = 1
+"gi" = (
+/obj/structure/stairs{
+	dir = 4
 	},
-/turf/open/floor/wood/nosmooth,
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/spiral,
 /area/outdoors/mountains)
-"gm" = (
-/obj/effect/decal/cleanable/dirt/cobweb{
-	icon_state = "cobweb2"
-	},
-/obj/structure/rack,
-/obj/item/reagent_containers/glass/bucket/wooden,
-/turf/open/floor/cobblerock,
-/area/indoors)
 "gp" = (
 /obj/structure/stairs/stone,
 /turf/open/floor/cobblerock,
@@ -725,15 +701,6 @@
 /obj/item/clothing/ring/gold,
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
-"ha" = (
-/obj/machinery/light/fueled/wallfire/candle{
-	pixel_y = -32
-	},
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/turf/open/openspace,
-/area/indoors/villagegarrison)
 "hf" = (
 /obj/item/reagent_containers/powder/salt,
 /turf/open/floor/cobble,
@@ -759,12 +726,6 @@
 /obj/item/natural/rock/salt,
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/lower)
-"hx" = (
-/obj/structure/stairs{
-	dir = 4
-	},
-/turf/open/floor/cobblerock,
-/area/outdoors/wilderness)
 "hF" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -868,12 +829,12 @@
 "ij" = (
 /turf/open/floor/hexstone,
 /area/under/mountains/anvil/lower)
-"io" = (
-/obj/structure/fluff/railing/wood{
-	dir = 1
+"il" = (
+/obj/structure/stairs{
+	dir = 4
 	},
-/turf/open/floor/ruinedwood/spiral,
-/area/outdoors/mountains)
+/turf/open/floor/cobble,
+/area/outdoors/woods_safe)
 "ir" = (
 /obj/structure/stairs/stone{
 	dir = 8
@@ -890,10 +851,39 @@
 	},
 /turf/open/floor/cobble,
 /area/outdoors/woods_safe)
+"ix" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/ore/gold{
+	pixel_x = -7;
+	pixel_y = -1
+	},
+/obj/item/ore/silver{
+	pixel_x = -5;
+	pixel_y = -10
+	},
+/obj/item/ore/iron{
+	pixel_x = 6
+	},
+/obj/item/ore/iron{
+	pixel_x = 6;
+	pixel_y = -9
+	},
+/obj/item/ore/iron{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/turf/open/floor/herringbone,
+/area/under/mountains/anvil/lower)
 "iD" = (
 /obj/structure/flora/tree,
 /turf/open/floor/dirt,
 /area/outdoors/wilderness)
+"iH" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/woodturned/nosmooth,
+/area/outdoors/mountains)
 "iQ" = (
 /obj/structure/rack,
 /turf/open/floor/herringbone,
@@ -917,6 +907,12 @@
 	},
 /turf/open/floor/twig,
 /area/under/mountains/anvil/lower)
+"jj" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/outdoors/mountains)
 "ju" = (
 /turf/closed,
 /area/outdoors/bog)
@@ -949,9 +945,6 @@
 /obj/structure/window/solid,
 /turf/open/floor/wood,
 /area/indoors)
-"jD" = (
-/turf/open/lava/acid,
-/area/under/mountains/anvil/lower)
 "jI" = (
 /obj/structure/flora/grass/thorn_bush,
 /turf/open/floor/grass,
@@ -1065,12 +1058,6 @@
 /obj/structure/flora/tree/burnt,
 /turf/open/floor/dirt,
 /area/outdoors/bog)
-"kE" = (
-/obj/structure/stairs{
-	dir = 4
-	},
-/turf/open/floor/cobblerock,
-/area/outdoors/woods_safe)
 "kF" = (
 /obj/item/natural/stone{
 	pixel_x = 5;
@@ -1173,15 +1160,6 @@
 /obj/structure/bridge,
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
-"lW" = (
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/twig,
-/area/outdoors/mountains)
 "lX" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "daftmarsh-cave-to-outlands";
@@ -1189,29 +1167,6 @@
 	},
 /turf/open/floor/dirt,
 /area/under/mountains/anvil/upper)
-"md" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/ore/gold{
-	pixel_x = -7;
-	pixel_y = -1
-	},
-/obj/item/ore/silver{
-	pixel_x = -5;
-	pixel_y = -10
-	},
-/obj/item/ore/iron{
-	pixel_x = 6
-	},
-/obj/item/ore/iron{
-	pixel_x = 6;
-	pixel_y = -9
-	},
-/obj/item/ore/iron{
-	pixel_x = 4;
-	pixel_y = 9
-	},
-/turf/open/floor/herringbone,
-/area/under/mountains/anvil/lower)
 "mj" = (
 /turf/open/floor/twig,
 /area/outdoors/mountains)
@@ -1294,6 +1249,10 @@
 /obj/machinery/light/fueled/wallfire/candle/weak/l,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
+"mL" = (
+/obj/effect/spawner/traveltile_spawner/horizontal/jarosite,
+/turf/open/floor/naturalstone,
+/area/under/mountains/anvil/lower)
 "mM" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1
@@ -1344,6 +1303,21 @@
 /obj/structure/flora/grass/herb/euphrasia,
 /turf/open/floor/dirt,
 /area/outdoors/bog)
+"ng" = (
+/obj/structure/table/wood/plain,
+/obj/item/plate,
+/obj/item/reagent_containers/food/snacks/rotten/meat{
+	pixel_y = 3
+	},
+/obj/item/weapon/knife/villager{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/item/kitchen/fork/iron{
+	pixel_x = -12
+	},
+/turf/open/floor/twig/platform,
+/area/under/mountains/anvil/lower)
 "nh" = (
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/garrison/forest,
@@ -1418,22 +1392,6 @@
 "nX" = (
 /turf/open/floor/grass,
 /area/outdoors/bog)
-"oa" = (
-/obj/item/natural/stoneblock,
-/obj/item/natural/stone{
-	pixel_x = 6
-	},
-/turf/open/floor/herringbone,
-/area/under/mountains/anvil/lower)
-"oc" = (
-/obj/structure/stairs{
-	dir = 8
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/ruinedwood/spiral,
-/area/outdoors/mountains)
 "od" = (
 /obj/effect/landmark/start/adventurerlate{
 	dir = 1
@@ -1444,6 +1402,12 @@
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/snow/patchy,
 /area/outdoors/wilderness)
+"oC" = (
+/obj/item/natural/stone{
+	pixel_x = -10
+	},
+/turf/open/floor/herringbone,
+/area/under/mountains/anvil/lower)
 "oH" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass,
@@ -1486,12 +1450,6 @@
 "pg" = (
 /turf/open/floor/dirt,
 /area/outdoors/bog)
-"pi" = (
-/obj/structure/stairs{
-	dir = 4
-	},
-/turf/open/floor/dirt,
-/area/outdoors/wilderness)
 "pn" = (
 /turf/closed/mineral,
 /area/under/cave)
@@ -1505,27 +1463,6 @@
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass,
 /area/outdoors/wilderness)
-"px" = (
-/obj/item/grown/log/tree/small{
-	pixel_x = -5;
-	pixel_y = -4
-	},
-/obj/item/grown/log/tree/small{
-	pixel_x = -3
-	},
-/obj/item/grown/log/tree/small{
-	pixel_y = -5
-	},
-/obj/item/grown/log/tree/small{
-	pixel_x = 5;
-	pixel_y = -6
-	},
-/obj/item/grown/log/tree/small{
-	pixel_x = 3;
-	pixel_y = -1
-	},
-/turf/open/floor/dirt/road,
-/area/under/mountains/anvil/lower)
 "pz" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -1556,12 +1493,26 @@
 /obj/structure/spider/stickyweb/solo,
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
+"pP" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/turf/open/floor/dirt,
+/area/outdoors/wilderness)
 "pQ" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
 	},
 /turf/open/floor/ruinedwood/spiral,
 /area/outdoors/mountains)
+"pR" = (
+/obj/structure/bed/mediocre,
+/obj/item/bedsheet/fabric,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/turf/open/floor/carpet/royalblack,
+/area/indoors/villagegarrison)
 "pS" = (
 /turf/open/floor/grass,
 /area/outdoors/wilderness)
@@ -1586,12 +1537,26 @@
 /obj/machinery/light/fueled/wallfire/candle/weak/r,
 /turf/open/floor/hexstone,
 /area/under/mountains/anvil/lower)
+"qf" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/turf/open/floor/cobblerock,
+/area/indoors)
 "ql" = (
 /obj/structure/roguerock,
 /turf/open/water/river/dirt{
 	dir = 8
 	},
 /area/outdoors/bog)
+"qo" = (
+/obj/effect/decal/cleanable/dirt/cobweb{
+	icon_state = "cobweb2"
+	},
+/obj/structure/rack,
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/cobblerock,
+/area/indoors)
 "qr" = (
 /turf/closed/mineral/random/med,
 /area/outdoors/bog)
@@ -1650,12 +1615,6 @@
 /mob/living/simple_animal/hostile/retaliate/spider,
 /turf/open/floor/hexstone,
 /area/under/mountains/anvil/lower)
-"qY" = (
-/obj/structure/stairs{
-	dir = 4
-	},
-/turf/open/floor/ruinedwood/spiral,
-/area/outdoors/mountains)
 "rd" = (
 /obj/item/reagent_containers/food/snacks/fat{
 	pixel_x = -5;
@@ -1683,6 +1642,15 @@
 /obj/structure/fluff/statue/knight/interior/gen,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
+"rH" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/outdoors/mountains)
 "rI" = (
 /obj/item/ore/coal{
 	pixel_x = -7;
@@ -1716,12 +1684,6 @@
 	},
 /turf/open/floor/cobblerock,
 /area/indoors)
-"sg" = (
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/outdoors/mountains)
 "si" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -1984,6 +1946,12 @@
 	},
 /turf/open/floor/dirt,
 /area/outdoors/bog)
+"un" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/outdoors/mountains)
 "uo" = (
 /turf/closed/mineral/bedrock,
 /area/under/cave)
@@ -1997,6 +1965,12 @@
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/wilderness)
+"uv" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/turf/open/floor/cobblerock,
+/area/outdoors/woods_safe)
 "uA" = (
 /obj/structure/chair/wood/alt/chair_noble/red{
 	dir = 8
@@ -2039,6 +2013,21 @@
 	},
 /turf/open/floor/twig,
 /area/outdoors/mountains)
+"vr" = (
+/obj/structure/table/wood/plain,
+/obj/item/reagent_containers/food/snacks/jellycake_base{
+	pixel_x = -6;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/food/snacks/jellycake_base{
+	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/food/snacks/jellycake_base{
+	pixel_y = 5
+	},
+/turf/open/floor/naturalstone,
+/area/under/mountains/anvil/lower)
 "vt" = (
 /obj/structure/stairs,
 /obj/structure/fluff/railing/wood{
@@ -2096,6 +2085,21 @@
 "wg" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
+"wh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/weapon/pick/stone{
+	pixel_x = -4
+	},
+/obj/item/weapon/pick/stone{
+	pixel_x = 5;
+	pixel_y = -6
+	},
+/turf/open/floor/wood,
+/area/indoors)
 "ws" = (
 /obj/structure/fluff/walldeco/vinez{
 	pixel_x = 5;
@@ -2222,12 +2226,12 @@
 /obj/structure/flora/newtree,
 /turf/open/floor/dirt,
 /area/outdoors/wilderness)
-"xY" = (
-/obj/machinery/light/fueled/wallfire/candle{
-	pixel_y = -32
+"xV" = (
+/obj/structure/stairs{
+	dir = 4
 	},
 /turf/open/floor/cobblerock,
-/area/indoors)
+/area/outdoors/wilderness)
 "yd" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/item/mana_battery/mana_crystal/standard,
@@ -2272,13 +2276,6 @@
 "yI" = (
 /turf/open/floor/wood/nosmooth,
 /area/outdoors/mountains)
-"yL" = (
-/obj/machinery/light/fueled/wallfire/candle{
-	pixel_y = -32
-	},
-/obj/structure/table/wood/plain_alt,
-/turf/open/floor/wood,
-/area/indoors/villagegarrison)
 "yM" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -2295,12 +2292,6 @@
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/wood,
 /area/indoors/villagegarrison)
-"yO" = (
-/obj/machinery/light/fueled/wallfire/candle{
-	pixel_y = -32
-	},
-/turf/open/floor/cobble,
-/area/indoors)
 "yQ" = (
 /obj/structure/table/stone_small,
 /turf/open/floor/carpet/lord/right,
@@ -2319,31 +2310,6 @@
 /obj/structure/flora/newtree,
 /turf/open/floor/dirt,
 /area/outdoors/woods_safe)
-"zl" = (
-/obj/item/natural/stone{
-	pixel_x = -10
-	},
-/turf/open/floor/herringbone,
-/area/under/mountains/anvil/lower)
-"zp" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/ore/gold{
-	pixel_x = 5
-	},
-/obj/item/ore/silver{
-	pixel_x = 4;
-	pixel_y = -10
-	},
-/obj/item/ore/silver{
-	pixel_x = -5;
-	pixel_y = 9
-	},
-/obj/item/ore/iron{
-	pixel_x = -5;
-	pixel_y = -10
-	},
-/turf/open/floor/herringbone,
-/area/under/mountains/anvil/lower)
 "zr" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/dirt,
@@ -2365,21 +2331,6 @@
 	},
 /turf/open/floor/tile/kitchen,
 /area/indoors/villagegarrison)
-"zt" = (
-/obj/structure/table/wood/plain,
-/obj/item/reagent_containers/food/snacks/jellycake_base{
-	pixel_x = -6;
-	pixel_y = -1
-	},
-/obj/item/reagent_containers/food/snacks/jellycake_base{
-	pixel_x = 8;
-	pixel_y = -1
-	},
-/obj/item/reagent_containers/food/snacks/jellycake_base{
-	pixel_y = 5
-	},
-/turf/open/floor/naturalstone,
-/area/under/mountains/anvil/lower)
 "zv" = (
 /obj/structure/rack/shelf/biggest{
 	pixel_x = 1;
@@ -2476,6 +2427,12 @@
 	},
 /turf/open/floor/hexstone,
 /area/indoors/villagegarrison)
+"AK" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/outdoors/mountains)
 "AO" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/grass/cold,
@@ -2524,9 +2481,24 @@
 /obj/structure/fermentation_keg/water,
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
+"BD" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/nosmooth,
+/area/outdoors/mountains)
 "BE" = (
 /obj/structure/table/wood/plain,
 /turf/open/floor/twig,
+/area/under/mountains/anvil/lower)
+"BH" = (
+/obj/item/natural/stoneblock{
+	pixel_x = -5
+	},
+/turf/open/floor/herringbone,
 /area/under/mountains/anvil/lower)
 "BJ" = (
 /obj/machinery/light/fueled/torchholder/r,
@@ -2597,21 +2569,6 @@
 /obj/structure/fluff/walldeco/vinez/red,
 /turf/closed/wall/mineral/decorstone,
 /area/under/mountains/anvil/lower)
-"Cm" = (
-/obj/structure/table/wood/plain,
-/obj/item/plate,
-/obj/item/reagent_containers/food/snacks/rotten/meat{
-	pixel_y = 3
-	},
-/obj/item/weapon/knife/villager{
-	pixel_x = 8;
-	pixel_y = -4
-	},
-/obj/item/kitchen/fork/iron{
-	pixel_x = -12
-	},
-/turf/open/floor/twig/platform,
-/area/under/mountains/anvil/lower)
 "Co" = (
 /obj/structure/stairs{
 	dir = 1
@@ -2652,6 +2609,15 @@
 	dir = 8
 	},
 /area/outdoors/bog)
+"CR" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/indoors/villagegarrison)
 "CS" = (
 /obj/item/bedsheet/cloth,
 /obj/structure/bed/mediocre,
@@ -2698,10 +2664,6 @@
 "Dn" = (
 /turf/closed/wall/mineral/wooddark,
 /area/outdoors/wilderness)
-"Dt" = (
-/obj/item/natural/rock/random_ore,
-/turf/open/floor/naturalstone,
-/area/under/mountains/anvil/lower)
 "Dx" = (
 /obj/structure/flora/tree/wise,
 /turf/open/floor/dirt,
@@ -2796,6 +2758,29 @@
 "EF" = (
 /turf/closed/mineral/random,
 /area/under/cave)
+"EG" = (
+/obj/structure/table/wood/plain,
+/obj/item/reagent_containers/food/snacks/fat{
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/fat{
+	pixel_x = 1;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/snacks/fat{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/snacks/fat{
+	pixel_x = 3
+	},
+/obj/item/reagent_containers/food/snacks/fat{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/turf/open/floor/cobble,
+/area/under/mountains/anvil/lower)
 "EJ" = (
 /mob/living/carbon/human/species/goblin/npc/hell,
 /obj/item/natural/poo{
@@ -2812,6 +2797,15 @@
 	},
 /turf/open/water/sewer,
 /area/under/mountains/anvil/lower)
+"EK" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/outdoors/mountains)
 "EM" = (
 /obj/structure/table/wood/plain_alt,
 /turf/open/floor/cobblerock,
@@ -2974,6 +2968,27 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/cobble,
 /area/indoors/villagegarrison)
+"Gh" = (
+/obj/structure/table/wood/plain,
+/obj/item/reagent_containers/food/snacks/tangerine_dried{
+	pixel_x = -11;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/pear_dried{
+	pixel_x = -9;
+	pixel_y = -6
+	},
+/obj/item/reagent_containers/food/snacks/plum_dried,
+/obj/item/reagent_containers/food/snacks/apple_dried{
+	pixel_x = 8;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/snacks/produce/fruit/lime{
+	pixel_x = 10;
+	pixel_y = -5
+	},
+/turf/open/floor/naturalstone,
+/area/under/mountains/anvil/lower)
 "Gl" = (
 /obj/structure/table/wood/plain_alt,
 /obj/item/natural/feather,
@@ -2996,21 +3011,6 @@
 /obj/machinery/light/fueled/wallfire/candle/weak/l,
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/lower)
-"Gw" = (
-/obj/structure/table/wood/counter/end,
-/obj/item/reagent_containers/powder/flour{
-	pixel_x = -6;
-	pixel_y = 13
-	},
-/obj/item/kitchen/rollingpin{
-	pixel_y = 5
-	},
-/obj/item/weapon/knife/hunting{
-	pixel_x = 11;
-	pixel_y = 3
-	},
-/turf/open/floor/woodturned/nosmooth,
-/area/indoors)
 "GE" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/reagent_containers/glass/bucket/pot{
@@ -3191,12 +3191,6 @@
 /obj/item/natural/rock/salt,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
-"In" = (
-/obj/structure/stairs{
-	dir = 4
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods_safe)
 "Is" = (
 /obj/structure/stairs{
 	dir = 1
@@ -3262,6 +3256,13 @@
 "Ja" = (
 /obj/item/natural/rock/mana_crystal,
 /turf/open/floor/naturalstone,
+/area/under/mountains/anvil/lower)
+"Jc" = (
+/obj/item/natural/stoneblock,
+/obj/item/natural/stone{
+	pixel_x = 6
+	},
+/turf/open/floor/herringbone,
 /area/under/mountains/anvil/lower)
 "Jd" = (
 /obj/structure/roguetent,
@@ -3359,6 +3360,13 @@
 /obj/structure/table/church/m,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
+"Kf" = (
+/obj/structure/fluff/walldeco/bigpainting{
+	pixel_x = 1
+	},
+/obj/structure/closet/crate/chest/neu_iron,
+/turf/open/floor/wood,
+/area/indoors/villagegarrison)
 "Kh" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/grass/cold,
@@ -3391,6 +3399,10 @@
 "KJ" = (
 /obj/item/natural/rock/salt,
 /turf/open/floor/grass/red,
+/area/under/mountains/anvil/lower)
+"KN" = (
+/obj/item/natural/rock/random_ore,
+/turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
 "KR" = (
 /obj/item/reagent_containers/food/snacks/smallrat,
@@ -3440,6 +3452,13 @@
 	pixel_y = -5
 	},
 /turf/open/floor/herringbone,
+/area/under/mountains/anvil/lower)
+"LA" = (
+/obj/item/natural/stoneblock,
+/obj/item/ore/coal{
+	pixel_x = 8
+	},
+/turf/open/floor/cobble/alt,
 /area/under/mountains/anvil/lower)
 "LL" = (
 /obj/item/natural/stoneblock{
@@ -3600,18 +3619,35 @@
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
+"MG" = (
+/obj/structure/table/wood/counter/end,
+/obj/item/reagent_containers/powder/flour{
+	pixel_x = -6;
+	pixel_y = 13
+	},
+/obj/item/kitchen/rollingpin{
+	pixel_y = 5
+	},
+/obj/item/weapon/knife/hunting{
+	pixel_x = 11;
+	pixel_y = 3
+	},
+/turf/open/floor/woodturned/nosmooth,
+/area/indoors)
 "MI" = (
 /obj/structure/spider/stickyweb,
 /obj/item/weapon/shield/tower/spidershield,
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
-"MK" = (
-/obj/item/natural/stoneblock,
-/obj/item/ore/coal{
-	pixel_x = 8
+"MN" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
 	},
-/turf/open/floor/cobble/alt,
-/area/under/mountains/anvil/lower)
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/outdoors/mountains)
 "MS" = (
 /obj/structure/fluff/statue/knight/interior/r,
 /turf/open/floor/hexstone,
@@ -3802,27 +3838,6 @@
 	},
 /turf/open/floor/grass,
 /area/outdoors/woods_safe)
-"Pn" = (
-/obj/structure/table/wood/plain,
-/obj/item/reagent_containers/food/snacks/tangerine_dried{
-	pixel_x = -11;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/snacks/pear_dried{
-	pixel_x = -9;
-	pixel_y = -6
-	},
-/obj/item/reagent_containers/food/snacks/plum_dried,
-/obj/item/reagent_containers/food/snacks/apple_dried{
-	pixel_x = 8;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/food/snacks/produce/fruit/lime{
-	pixel_x = 10;
-	pixel_y = -5
-	},
-/turf/open/floor/naturalstone,
-/area/under/mountains/anvil/lower)
 "Pp" = (
 /obj/structure/chair/wood/alt,
 /mob/living/carbon/human/species/goblin/npc/hell{
@@ -3884,14 +3899,6 @@
 /area/outdoors/mountains)
 "PN" = (
 /turf/closed/wall/mineral/stone/moss,
-/area/indoors/villagegarrison)
-"PW" = (
-/obj/structure/bed/mediocre,
-/obj/item/bedsheet/fabric,
-/obj/machinery/light/fueled/wallfire/candle{
-	pixel_y = -32
-	},
-/turf/open/floor/carpet/royalblack,
 /area/indoors/villagegarrison)
 "PY" = (
 /turf/open/floor/snow,
@@ -3955,27 +3962,19 @@
 /obj/item/mana_battery/mana_crystal/small,
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
-"QH" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/cobweb{
-	dir = 1
-	},
-/obj/structure/rack,
-/obj/item/weapon/pick/stone{
-	pixel_x = -4
-	},
-/obj/item/weapon/pick/stone{
-	pixel_x = 5;
-	pixel_y = -6
-	},
-/turf/open/floor/wood,
-/area/indoors)
 "QI" = (
 /obj/structure/stairs/stone{
 	dir = 8
 	},
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/upper)
+"QK" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/obj/structure/table/wood/plain_alt,
+/turf/open/floor/wood,
+/area/indoors/villagegarrison)
 "QL" = (
 /obj/structure/bars,
 /turf/open/floor/blocks,
@@ -4183,15 +4182,6 @@
 /obj/structure/bridge_stakes,
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/lower)
-"SH" = (
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/wood/nosmooth,
-/area/outdoors/mountains)
 "SJ" = (
 /obj/structure/bed/hay,
 /mob/living/carbon/human/species/goblin/npc/hell,
@@ -4246,18 +4236,18 @@
 /obj/structure/chair/wood/alt,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
-"Tn" = (
-/obj/structure/fluff/railing/wood{
-	dir = 1
-	},
-/turf/open/floor/woodturned/nosmooth,
-/area/outdoors/mountains)
 "Tq" = (
 /obj/structure/bridge_stakes{
 	dir = 8
 	},
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
+"Tr" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/nosmooth,
+/area/outdoors/mountains)
 "Ty" = (
 /obj/structure/stairs/stone,
 /turf/open/floor/cobblerock,
@@ -4421,6 +4411,12 @@
 	},
 /turf/open/floor/woodturned/nosmooth,
 /area/indoors)
+"Vz" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/outdoors/mountains)
 "VB" = (
 /mob/living/carbon/human/species/goblin/npc/hell{
 	health = 0;
@@ -4573,8 +4569,12 @@
 "Xn" = (
 /turf/closed/wall/mineral/decostone/center,
 /area/under/mountains/anvil/upper)
-"Xq" = (
-/obj/effect/spawner/traveltile_spawner/horizontal/jarosite,
+"Xp" = (
+/obj/structure/table/wood/plain,
+/obj/item/reagent_containers/food/snacks/jellycake_pear,
+/obj/item/candle/lit{
+	pixel_y = 9
+	},
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
 "Xt" = (
@@ -4592,14 +4592,6 @@
 /obj/machinery/light/fueled/hearth,
 /turf/open/floor/tile/kitchen,
 /area/indoors/villagegarrison)
-"XF" = (
-/obj/structure/table/wood/plain,
-/obj/item/reagent_containers/food/snacks/jellycake_pear,
-/obj/item/candle/lit{
-	pixel_y = 9
-	},
-/turf/open/floor/naturalstone,
-/area/under/mountains/anvil/lower)
 "XI" = (
 /obj/effect/decal/cleanable/dirt/cobweb{
 	dir = 4
@@ -4730,19 +4722,6 @@
 	},
 /turf/open/floor/cobble/alt,
 /area/under/mountains/anvil/lower)
-"YP" = (
-/obj/structure/fluff/walldeco/bigpainting{
-	pixel_x = 1
-	},
-/obj/structure/closet/crate/chest/neu_iron,
-/turf/open/floor/wood,
-/area/indoors/villagegarrison)
-"YW" = (
-/obj/machinery/light/fueled/wallfire/candle{
-	pixel_y = -32
-	},
-/turf/open/floor/hexstone,
-/area/indoors/villagegarrison)
 "YX" = (
 /obj/structure/window,
 /obj/structure/fluff/walldeco/vinez/red,
@@ -4796,6 +4775,27 @@
 "ZV" = (
 /turf/closed/mineral/random/high,
 /area/under/mountains/anvil/upper)
+"ZW" = (
+/obj/item/grown/log/tree/small{
+	pixel_x = -5;
+	pixel_y = -4
+	},
+/obj/item/grown/log/tree/small{
+	pixel_x = -3
+	},
+/obj/item/grown/log/tree/small{
+	pixel_y = -5
+	},
+/obj/item/grown/log/tree/small{
+	pixel_x = 5;
+	pixel_y = -6
+	},
+/obj/item/grown/log/tree/small{
+	pixel_x = 3;
+	pixel_y = -1
+	},
+/turf/open/floor/dirt/road,
+/area/under/mountains/anvil/lower)
 "ZX" = (
 /obj/item/bin/water/gross,
 /turf/open/floor/cobble,
@@ -23969,7 +23969,7 @@ IT
 IT
 IT
 IT
-px
+ZW
 bS
 MZ
 mr
@@ -24922,9 +24922,9 @@ Bt
 Bt
 Bt
 Bt
-jD
-jD
-jD
+fV
+fV
+fV
 Bt
 Bt
 GX
@@ -25124,8 +25124,8 @@ Bt
 Bt
 Bt
 Bt
-jD
-jD
+fV
+fV
 GX
 GX
 Bt
@@ -25327,7 +25327,7 @@ Bt
 Bt
 Bt
 Bt
-jD
+fV
 GX
 sl
 Bt
@@ -25530,7 +25530,7 @@ Bt
 Bt
 Bt
 Bt
-Xq
+mL
 GX
 Bt
 GX
@@ -26138,7 +26138,7 @@ Bt
 Bt
 Bt
 GX
-Dt
+KN
 GX
 GX
 fk
@@ -33074,8 +33074,8 @@ lz
 lz
 pB
 LL
-md
-zp
+ix
+dX
 lz
 lz
 lz
@@ -33482,7 +33482,7 @@ LM
 rI
 lz
 lz
-MK
+LA
 lz
 lz
 lz
@@ -53314,9 +53314,9 @@ Lv
 Lv
 Lv
 Lv
-hx
-pi
-pi
+xV
+pP
+pP
 Lv
 Lv
 jv
@@ -62917,7 +62917,7 @@ GX
 fk
 wa
 GX
-Xq
+mL
 Bt
 Bt
 Bt
@@ -63120,8 +63120,8 @@ IT
 IT
 GX
 GX
-jD
-jD
+fV
+fV
 Bt
 Bt
 Bt
@@ -63320,10 +63320,10 @@ bv
 bv
 bv
 bv
-jD
-jD
-jD
-jD
+fV
+fV
+fV
+fV
 Bt
 Bt
 Bt
@@ -63523,8 +63523,8 @@ bv
 bv
 bv
 bv
-jD
-jD
+fV
+fV
 Bt
 Bt
 Bt
@@ -71244,7 +71244,7 @@ NX
 NX
 Dc
 XT
-oa
+Jc
 Dc
 NX
 NX
@@ -76097,7 +76097,7 @@ NX
 NX
 NX
 NX
-dO
+BH
 NX
 NX
 NX
@@ -76703,7 +76703,7 @@ NX
 Bt
 Bt
 XT
-zl
+oC
 NX
 NX
 NX
@@ -80144,7 +80144,7 @@ qU
 qU
 Us
 yh
-dW
+EG
 fm
 GX
 LR
@@ -80346,7 +80346,7 @@ qU
 qU
 aw
 rd
-zt
+vr
 xu
 Dk
 FS
@@ -80548,7 +80548,7 @@ qU
 qU
 Kx
 Eu
-Pn
+Gh
 Xi
 fk
 Dd
@@ -82354,7 +82354,7 @@ kc
 NX
 NX
 Df
-Cm
+ng
 SJ
 Df
 NX
@@ -83378,7 +83378,7 @@ GX
 fk
 kc
 Pp
-XF
+Xp
 Qm
 qU
 SK
@@ -93917,9 +93917,9 @@ lj
 lj
 lj
 lj
-bA
-qY
-bE
+rH
+jj
+gi
 lj
 lj
 lj
@@ -94119,7 +94119,7 @@ lj
 lj
 lj
 lj
-sg
+AK
 jW
 Lk
 lj
@@ -94321,7 +94321,7 @@ lj
 lj
 lj
 lj
-sg
+AK
 Ap
 UC
 lj
@@ -94523,7 +94523,7 @@ lj
 lj
 lj
 lj
-io
+un
 jW
 Wz
 lj
@@ -94725,7 +94725,7 @@ lj
 lj
 lj
 lj
-bR
+Vz
 jW
 Ht
 lj
@@ -94927,7 +94927,7 @@ lj
 lj
 lj
 lj
-gg
+Tr
 dS
 Ht
 lj
@@ -95129,7 +95129,7 @@ lj
 lj
 lj
 lj
-gg
+Tr
 dS
 Wz
 lj
@@ -95331,7 +95331,7 @@ lj
 lj
 lj
 lj
-io
+un
 dS
 Lk
 lj
@@ -95533,7 +95533,7 @@ lj
 lj
 lj
 lj
-Tn
+iH
 Ap
 Lk
 lj
@@ -95735,7 +95735,7 @@ lj
 lj
 lj
 lj
-lW
+em
 jW
 jW
 yM
@@ -95938,7 +95938,7 @@ lj
 lj
 lj
 lj
-io
+un
 jW
 Fi
 lj
@@ -96140,7 +96140,7 @@ lj
 lj
 lj
 lj
-Tn
+iH
 Ap
 Fi
 lj
@@ -96342,7 +96342,7 @@ lj
 lj
 lj
 lj
-sg
+AK
 jW
 Wz
 lj
@@ -96544,7 +96544,7 @@ lj
 lj
 lj
 lj
-sg
+AK
 Ap
 UC
 lj
@@ -96746,7 +96746,7 @@ lj
 lj
 lj
 lj
-io
+un
 jW
 Lk
 lj
@@ -96948,7 +96948,7 @@ lj
 lj
 lj
 lj
-Tn
+iH
 Ap
 Lk
 lj
@@ -97150,7 +97150,7 @@ lj
 lj
 lj
 lj
-io
+un
 dS
 Ht
 lj
@@ -97352,7 +97352,7 @@ lj
 lj
 lj
 lj
-gg
+Tr
 dS
 Ht
 lj
@@ -97554,7 +97554,7 @@ lj
 lj
 lj
 lj
-SH
+BD
 jW
 jW
 yM
@@ -97757,7 +97757,7 @@ lj
 lj
 lj
 lj
-io
+un
 Ap
 UC
 lj
@@ -97959,7 +97959,7 @@ lj
 lj
 lj
 lj
-bR
+Vz
 jW
 Fi
 lj
@@ -98161,7 +98161,7 @@ lj
 lj
 lj
 lj
-Tn
+iH
 Ap
 Fi
 lj
@@ -98363,7 +98363,7 @@ lj
 lj
 lj
 lj
-io
+un
 jW
 Ht
 lj
@@ -98565,7 +98565,7 @@ lj
 lj
 lj
 lj
-sg
+AK
 jW
 Ht
 lj
@@ -98767,7 +98767,7 @@ lj
 lj
 lj
 lj
-sg
+AK
 jW
 Wz
 lj
@@ -98969,7 +98969,7 @@ lj
 lj
 lj
 lj
-Tn
+iH
 Ap
 Wz
 lj
@@ -99171,7 +99171,7 @@ lj
 lj
 lj
 lj
-io
+un
 jW
 Lk
 lj
@@ -99373,7 +99373,7 @@ lj
 lj
 lj
 lj
-cv
+MN
 yI
 dS
 yM
@@ -99576,7 +99576,7 @@ lj
 lj
 lj
 lj
-gg
+Tr
 dS
 Wz
 lj
@@ -99778,7 +99778,7 @@ lj
 lj
 lj
 lj
-bR
+Vz
 Ap
 UC
 lj
@@ -99980,7 +99980,7 @@ lj
 lj
 lj
 lj
-io
+un
 jW
 Fi
 lj
@@ -100182,7 +100182,7 @@ lj
 lj
 lj
 lj
-Tn
+iH
 Ap
 Fi
 lj
@@ -100384,7 +100384,7 @@ lj
 lj
 lj
 lj
-oc
+EK
 uf
 IC
 lj
@@ -109727,7 +109727,7 @@ tW
 AS
 Je
 tW
-Gw
+MG
 fM
 fM
 xs
@@ -111550,12 +111550,12 @@ wg
 zB
 eb
 dx
-In
+il
 vz
 vz
 vz
 vz
-kE
+uv
 tQ
 eb
 zB
@@ -111744,7 +111744,7 @@ SS
 OG
 Nd
 sO
-ha
+CR
 LO
 Ah
 wg
@@ -112350,7 +112350,7 @@ vw
 uA
 bx
 wT
-YW
+eU
 LO
 av
 wg
@@ -114172,7 +114172,7 @@ ZX
 EM
 JD
 cL
-xY
+qf
 ho
 zB
 ki
@@ -114772,13 +114772,13 @@ zB
 zB
 zB
 zb
-gm
+qo
 Lp
 Gs
 Sj
 Ha
 Lp
-yO
+fc
 zb
 Ay
 Ay
@@ -114790,7 +114790,7 @@ eb
 sD
 sD
 tW
-QH
+wh
 Xe
 BJ
 tU
@@ -152145,9 +152145,9 @@ zs
 Dh
 ew
 LO
-YP
+Kf
 Ao
-yL
+QK
 LO
 lj
 lj
@@ -152753,7 +152753,7 @@ YG
 kS
 yN
 JI
-PW
+pR
 LO
 lj
 lj
